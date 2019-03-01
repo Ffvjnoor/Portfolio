@@ -1,6 +1,9 @@
 
 /* Page setup */
 
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+
 html, body {
     margin: 0;
     padding: 0;
@@ -13,9 +16,10 @@ button:focus {
 }
 
 h1{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto-bold', sans-serif;
 	font-size: 44px;
 	line-height: 60px;
+	font-weight: normal;
 }
 
 h2{
@@ -154,9 +158,16 @@ nav a{
 
 .tile{
 	background-color: blue;
-	height: 200px;
+	height: 300px;
 	width: 100%;
 	float: left;
+}
+
+.tile2{
+	background-color: red;
+	height: 300px;
+	width: 100%;
+	float: left;	
 }
 
 
@@ -195,7 +206,7 @@ footer{
 @media only screen and (max-width: 480px) {
 
 .container{
-	max-width: 320px;
+	max-width: 300px;
 	width: 100%;
 }
 
@@ -215,8 +226,7 @@ nav{
 
 h1{
 	font-size: 32px;
-	line-height:48px;
-	transform: none;
+	line-height: 48px;
 	top: 20%;
 }
 
