@@ -214,12 +214,12 @@ footer{
 @media only screen and (max-width: 480px) {
 
 #navbar{
-	position: fixed;
+	/*position: fixed;
 	background-color: #181818;
 	left: 0;
 	right: 0;
 	z-index: 5;
-	height: 35px;
+	height: 35px;*/
 }
 
 .container{
@@ -228,14 +228,14 @@ footer{
 
 #mobile_menu{
 	display: block;
-	margin-right: 10px;
-	margin-top: -6px;
+	/*margin-right: 10px;
+	margin-top: -6px;*/
 }
 
-#navbar img{
+/*#navbar img{
 	margin-left: 10px;
 	margin-top: -8px;
-}
+}*/
 
 nav{
 	display: none;
@@ -243,7 +243,7 @@ nav{
 
 #headercontent{
 	width: 100%;
-	margin-top: 90px;
+	margin-top: 60px;
 	padding-bottom: 100px;
 }
 
@@ -278,7 +278,7 @@ h1{
 }
 
 .tile{
-	height: 250px;
+	height: 275px;
 	width: 100%;
 	float: left;
 }
