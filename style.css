@@ -15,14 +15,12 @@ button:focus {
 h1{
 	font-family: 'Roboto', sans-serif;
 	font-size: 44px;
-	font-weight: 900;
 	line-height: 60px;
 }
 
 h2{
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
-	font-weight: 900;
 	line-height: 46px;
 }
 
@@ -54,7 +52,6 @@ li{
 .primary-button{
 	color: #fff;
 	background-color: #009FB7;
-	padding: 10px 35px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	border: none;
@@ -72,12 +69,15 @@ li{
 .secondary-button{
 	color: #fff;
 	background-color: #181818;
-	padding: 10px 35px;
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	border-width: 2px;
 	border-color: white;
 	border-radius: 20px;
+}
+
+.animsation{
+	width:100%;
 }
 
 /* Top bar */
@@ -98,9 +98,15 @@ nav a{
 	float: left;
 }
 
-
 #navbar{
 	padding-top: 15px;
+}
+
+#mobile_menu{
+	color: #fff;
+	font-size: 34px;
+	float: right;
+	display: none;
 }
 
 
@@ -109,14 +115,12 @@ nav a{
 #mainheader{
 	background-color: #181818;
 	width: 100%;
-	height: 100vh;
+	height: auto;
 }
 
 #headercontent{
-	width: 40%;
-	position: absolute;
-  	top: 50%;
-  	transform: translateY(-50%);
+	float: left;
+	margin-top: 15px;
 }
 
 #headercontent h1{
@@ -145,100 +149,16 @@ nav a{
 
 .portfolio-container{
 	width: 100%;
-	background-color: #fff;
+	background-color: red;
 }
 
-
-.project-tile{
-	width: 50%;
-	height: 450px;
+.tile{
+	background-color: blue;
+	height: 200px;
+	width: 100%;
 	float: left;
-	background-color: #181818;
 }
 
-.tile-content{
-	width: 100%;
-	height: 100%;
-}
-
-.tile-overlay{
-	background-color: #181818;
-	opacity: 0.4;
-	height: 100%;
-	width: 100%;
-}
-
-.tile-content span{
-	color: #fff;
-	margin: auto;
-	float: left;
-	width: 100%;
-	text-align: center;
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-	z-index: 1;
-}
-
-.tile-content span h2{
-	margin-bottom: -5px;
-}
-
-#tile1{
-	background-image: url(https://images.unsplash.com/photo-1510894347713-fc3ed6fdf539?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
-  	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
-  	background-color: #181818;
-}
-
-#tile1content{
-	display: none;
-	background-color: #181818;
-	background-image: url(https://images.unsplash.com/photo-1516208398649-d5d401ba8c49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
-  	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-#tile1:hover #tile1content{
-  	display: block;
-}
-
-#tile2{
-	background-image: url();
-  	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
-  	background-color: #181818;
-}
-
-#tile2content{
-	display: none;
-	background-color: #181818;
-	background-image: url();
-  	background-position: center; /* Center the image */
-  	background-repeat: no-repeat; /* Do not repeat the image */
-  	background-size: cover; /* Resize the background image to cover the entire container */
-}
-
-#tile2:hover #tile2content{
-  	display: block;
-}
-
-#tile3{
-	background-color: #009FB7;
-	opacity: 0.6;
-}
-
-#tile4{
-	background-color: #009FB7;
-	opacity: 0.4;
-}
-
-.animsation{
-	width:100%;
-}
 
 /* Footer */
 
@@ -270,12 +190,7 @@ footer{
 	margin: auto;
 }
 
-#mobile_menu{
-	color: #fff;
-	font-size: 34px;
-	float: right;
-	display: none;
-}
+
 
 @media only screen and (max-width: 480px) {
 
@@ -293,7 +208,9 @@ nav{
 }
 
 #headercontent{
-	width: 80%;
+	width: 100%;
+	margin-top: 60px;
+	padding-bottom: 90px;
 }
 
 h1{
@@ -304,20 +221,27 @@ h1{
 }
 
 .primary-button{
-	width: 300px;
+	width: 100%;
 	float: left;
 	margin-top: 20px;
+	height: 50px;
 }
 
 .secondary-button{
-	width: 300px;
+	width: 100%;
 	float: left;
 	margin-top: 20px;
+	height: 50px;
 }
 
 #button-row .secondary-button {
     margin-left: 0px;
 }
 
+#button-row {
+    float: left;
+    margin-bottom: 10px;
+    width: 100%;
+}
 
 }
