@@ -1,0 +1,44 @@
+body{
+	background-color: #181818;
+}
+
+#projectheader{
+	background-color: #181818;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+#projectcontent{
+	width: 45%;
+  	color: #fff;
+  	float: left;
+  	margin-left: 10%;
+  	margin-top: 90px;
+  	padding-bottom: 75px;
+}
+
+.profilepic{
+	height: 483px;
+	width: 45%;
+	max-width: 376px;
+	background-image: url(../img/Profile-picture.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	margin-top: 130px;
+}
+
+#projecttext{
+	margin-top: 40px;
+}
+
+#projectcontent h2{
+	margin-top: 10px;
+}
+
+#factlist{
+	margin-top: 30px;
+	font-weight: 900;
+}

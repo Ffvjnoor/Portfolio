@@ -1,0 +1,97 @@
+#projectheader{
+	background-color: #181818;
+	width: 100%;
+}
+
+#contactcontent{
+	width: 75%;
+  	color: #fff;
+	margin: auto;
+  	margin-top: 190px;
+}
+
+#projecttext{
+	margin-top: 40px;
+}
+
+#contactcontent h1{
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	max-width: 470px;
+}
+
+#linkedinbutton {
+    display: block;
+    margin: auto;
+	width:100%;
+}
+
+#linkedinbutton button{
+	margin: auto;
+	display: block;
+	margin-top: 40px;
+}
+
+#linkedinbutton a{
+	text-decoration: none;
+}
+
+#mail{
+	display: block;
+	margin: auto;
+	width: 100%;
+	max-width: 220px;
+	margin-top: 15px;
+}
+
+#mail i{
+	float: left;
+	margin-top: 17px;
+}
+
+#mail p{
+	float: left;
+	margin-left: 10px;
+}
+
+@media only screen and (min-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+@media only screen and (max-width: 992px) {
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+#contactcontent {
+    width: 90%;
+    color: #fff;
+    margin: auto;
+    margin-top: 110px;
+}
+
+#linkedinbutton{
+	margin-top: 10px;
+}
+
+#mail{
+	margin-top: 120px;
+}
+
+}

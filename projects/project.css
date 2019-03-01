@@ -1,0 +1,30 @@
+#projectheader{
+	background-color: #181818;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+}
+
+#projectcontent{
+	width: 40%;
+  	color: #fff;
+  	float: left;
+  	margin-left: 5%;
+  	margin-top: 60px;
+  	padding-bottom: 75px;
+}
+
+.projectimg{
+	height: 350px;
+	width: 40%;
+	background-image: url(https://images.unsplash.com/photo-1550096392-eb33e9d895df?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	margin-top: 130px;
+}
+
+#projecttext{
+	margin-top: 40px;
+}
