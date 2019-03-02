@@ -412,13 +412,13 @@ h1{
   display: block;
   transition: 0.4s;
   font-family: 'Roboto', sans-serif;
-  font-weight:bold;
+  font-weight: 500;
 }
 
 .overlay .closebtn {
   position: absolute;
   top: -8px;
-  right: 27px;
+  right: 7%;
   font-size: 50px;
   font-weight: 300;
 }
