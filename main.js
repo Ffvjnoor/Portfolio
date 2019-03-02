@@ -28,7 +28,7 @@ $(window).on('scroll', function () {
    $(".animsition").animsition({
     inClass: 'fade-in',
     outClass: 'fade-out',
-    inDuration: 1500,
+    inDuration: 1000,
     outDuration: 800,
     linkElement: '.animsition-link',
     // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'

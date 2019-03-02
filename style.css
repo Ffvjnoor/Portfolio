@@ -181,32 +181,21 @@ nav a{
 
 /* Footer */
 
+
+footer {
+    height: 50px;
+    width: 100%;
+    float: left;
+}
+
 footer p{
 	float: left;
 	color: #fff;
-	margin-top: 13px;
-	font-size: 14px;
-	margin-left: 25px;
 }
 
 footer a{
 	float: right;
-	margin-top: 16px;
-    font-size: 14px;
-    text-decoration:none;
-    margin-right: 25px;
-}
-
-footer{
-	height: 50px;
-	width: 100%;
-	float:left;
-}
-
-.footercontainer{
-	width:100%;
-	max-width:1200px;
-	margin: auto;
+	text-decoration: none;
 }
 
 /* MOBILE */
@@ -281,6 +270,14 @@ h1{
 	height: 275px;
 	width: 100%;
 	float: left;
+}
+
+footer p{
+	font-size: 14px;
+}
+
+footer a{
+	display: none;
 }
 
 }
