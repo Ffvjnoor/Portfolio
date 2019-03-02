@@ -31,8 +31,28 @@
   					<a class="animsition-link" data-animsition-out-class="fade-out-right" data-animsition-out-duration="300" href="../aboutme/aboutme.html">Over mij</a>
   					<a href="#">Contact</a>
 				</nav>
-				<i id="mobile_menu" class="material-icons">menu</i>
+				<a onclick="openNav()" href="#"><i id="mobile_menu" class="material-icons">menu</i></a>
 			</div>
+
+			<!-- Mobile menu -->
+			<div id="myNav" class="overlay">
+  				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  			<div class="overlay-content">
+    			<a href="../index.html">Mijn werk</a>
+    			<a href="../aboutme/aboutme.html">Over mij</a>
+    			<a href="#">Contact</a>
+  			</div>
+			</div>
+
+			<script>
+			function openNav() {
+  			document.getElementById("myNav").style.height = "100%";
+			}
+
+			function closeNav() {
+  			document.getElementById("myNav").style.height = "0%";
+			}
+			</script>
 			
 			<!-- Project content -->
 			<div class="animsition">

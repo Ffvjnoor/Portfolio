@@ -407,18 +407,20 @@ h1{
 .overlay a {
   padding: 8px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 32px;
   color: #fff;
   display: block;
   transition: 0.4s;
   font-family: 'Roboto', sans-serif;
+  font-weight:bold;
 }
 
 .overlay .closebtn {
   position: absolute;
-  top: -5px;
-  right: 25px;
+  top: -8px;
+  right: 27px;
   font-size: 50px;
+  font-weight: 300;
 }
 
 @media screen and (max-height: 450px) {
