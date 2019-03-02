@@ -21,7 +21,6 @@ body{
 .profilepic{
 	height: 483px;
 	width: 45%;
-	max-width: 376px;
 	background-image: url(../img/Profile-picture.png);
 	background-position: center;
   	background-repeat: no-repeat;
@@ -69,21 +68,88 @@ body{
 
 @media only screen and (min-width: 480px) {
 
+.profilepic{
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: none;
+  	margin: auto;
+  	margin-top: 80px;
+  	height: 430px;
+	width: 335px;
+}
+
+#projectcontent{
+	width: 100%;
+	margin-left: 0;
+	margin-top: 45px;
+}
 
 }
 
 @media only screen and (min-width: 768px) {
 
+.profilepic{
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: none;
+  	margin: 0 auto;
+  	margin-top: 80px;
+	height: 430px;
+	width: 335px;
+}
+
+#projectcontent{
+	width: 85%;
+	margin-left: 0;
+	margin-top: 45px;
+}
 
 }
 
 @media only screen and (min-width: 1024px) {
 
+.profilepic{
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	margin-top: 80px;
+  	margin-left: 0px;
+	height: 483px;
+	width: 376px;
+}
+
+#projectcontent{
+	width: 43%;
+	margin-left: 50px;
+	margin-top: 45px;
+	float: left;
+}
 
 
 }
 
 @media only screen and (min-width: 1200px) {
+
+.profilepic{
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: left;
+  	margin-top: 80px;
+  	margin-left: 0px;
+	height: 483px;
+	width: 376px;
+}
+
+#projectcontent{
+	width: 48%;
+	margin-left: 75px;
+	margin-top: 45px;
+	float: left;
+}
 
 
 }
