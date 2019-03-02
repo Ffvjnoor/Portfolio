@@ -42,3 +42,48 @@ body{
 	margin-top: 30px;
 	font-weight: 900;
 }
+
+/* MOBILE */
+
+@media only screen and (max-width: 480px) {
+
+.profilepic{
+	height: 220px;
+	width: 220px;
+	background-image: url(../img/profilepicmobile.png);
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	float: none;
+  	margin: auto;
+  	margin-top: 80px;
+}
+
+#projectcontent{
+	width: 100%;
+	margin-left: 0;
+	margin-top: 25px;
+}
+
+}
+
+@media only screen and (min-width: 480px) {
+
+
+}
+
+@media only screen and (min-width: 768px) {
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+}
