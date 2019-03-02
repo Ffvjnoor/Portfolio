@@ -16,6 +16,7 @@
 	  <link rel="stylesheet" href="animsition-master/dist/css/animsition.css">
 	  <!-- animsition.js -->
 	  <script src="animsition-master/dist/js/animsition.min.js"></script>
+	  <script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
 </head>
 
 <body>
@@ -58,15 +59,39 @@
 			
 				<div id="headercontent">
 					<div class="animsition">
-						<h1><span class="underline">Hallo.</span><br>Ik ben Frank. Een UX/UI designer met een passie voor het maken van mooie en functionele ervaringen.</h1>
+						<h1><span class="underline">Hallo.</span><br>Ik ben Frank. Een UX/UI designer met een passie voor het ontwerpen van<br> <span id="typewriter"></span></h1>
 						<span id="button-row">
 							<a href="#portfolio"><button class="primary-button">Bekijk mijn cases</button></a>
-							<a class="animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="contact/contact.html"><button class="secondary-button">Get in touch</button></a>
+							<a class="animsition-link" data-animsition-out-class="fade-out-left" data-animsition-out-duration="500" href="aboutme/aboutme.html"><button class="secondary-button">Meer over mij</button></a>
 						</span>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<script>
+			var app = document.getElementById('typewriter');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('gebruikservaringen')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('websites')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('apps')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('interfaces')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('prototypes')
+    .pauseFor(2500)
+    .start();
+		</script>
 
 		<div class="portfolio-container animsition">
 
